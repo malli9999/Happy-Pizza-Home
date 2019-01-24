@@ -36,13 +36,25 @@ break;
 Console.WriteLine("choose one   toppings from below  list ");
 Console.WriteLine("\th - Ham");
 Console.WriteLine("\tb - Beef");
-Console.WriteLine("\ts - Salami");
+Console.WriteLine("\tc - chicken");
 Console.WriteLine("\tp - Pepperoni");
-if (Console.ReadLine()=="h" || Console.ReadLine()=="b" || Console.ReadLine()=="s"|| Console.ReadLine()=="p" )
+temp = Console.ReadLine();
+if (temp =="h")
 {
-    Console.WriteLine($"you selected toppings are {Console.ReadLine()}");
+    Console.WriteLine($"you selected toppings are Ham");
 }
+else if(temp =="b"){
+    Console.WriteLine($"you selected toppings are Beef");
+}
+else if(temp == "c")
+{
+        Console.WriteLine($"you selected toppings are Chicken");
 
+}
+else if (temp == "p"){
+        Console.WriteLine($"you selected toppings are Pepperoni");
+
+}
 
 var SUM =0;
 //in an infinite loop, 
