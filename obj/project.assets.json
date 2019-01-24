@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\S533568\\Documents\\44663\\w01\\w01.csproj",
+      "projectUniqueName": "C:\\Users\\S533568\\Documents\\44663\\Happy-Pizza-Home\\w01.csproj",
       "projectName": "w01",
-      "projectPath": "C:\\Users\\S533568\\Documents\\44663\\w01\\w01.csproj",
+      "projectPath": "C:\\Users\\S533568\\Documents\\44663\\Happy-Pizza-Home\\w01.csproj",
       "packagesPath": "C:\\Users\\S533568\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\S533568\\Documents\\44663\\w01\\obj\\",
+      "outputPath": "C:\\Users\\S533568\\Documents\\44663\\Happy-Pizza-Home\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

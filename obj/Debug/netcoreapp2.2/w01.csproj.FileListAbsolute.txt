@@ -9,3 +9,14 @@ C:\Users\S533568\Documents\44663\w01\obj\Debug\netcoreapp2.2\w01.AssemblyInfoInp
 C:\Users\S533568\Documents\44663\w01\obj\Debug\netcoreapp2.2\w01.AssemblyInfo.cs
 C:\Users\S533568\Documents\44663\w01\obj\Debug\netcoreapp2.2\w01.dll
 C:\Users\S533568\Documents\44663\w01\obj\Debug\netcoreapp2.2\w01.pdb
+C:\Users\S533568\Documents\44663\Happy-Pizza-Home\bin\Debug\netcoreapp2.2\w01.deps.json
+C:\Users\S533568\Documents\44663\Happy-Pizza-Home\bin\Debug\netcoreapp2.2\w01.runtimeconfig.json
+C:\Users\S533568\Documents\44663\Happy-Pizza-Home\bin\Debug\netcoreapp2.2\w01.runtimeconfig.dev.json
+C:\Users\S533568\Documents\44663\Happy-Pizza-Home\bin\Debug\netcoreapp2.2\w01.dll
+C:\Users\S533568\Documents\44663\Happy-Pizza-Home\bin\Debug\netcoreapp2.2\w01.pdb
+C:\Users\S533568\Documents\44663\Happy-Pizza-Home\obj\Debug\netcoreapp2.2\w01.csprojAssemblyReference.cache
+C:\Users\S533568\Documents\44663\Happy-Pizza-Home\obj\Debug\netcoreapp2.2\w01.csproj.CoreCompileInputs.cache
+C:\Users\S533568\Documents\44663\Happy-Pizza-Home\obj\Debug\netcoreapp2.2\w01.AssemblyInfoInputs.cache
+C:\Users\S533568\Documents\44663\Happy-Pizza-Home\obj\Debug\netcoreapp2.2\w01.AssemblyInfo.cs
+C:\Users\S533568\Documents\44663\Happy-Pizza-Home\obj\Debug\netcoreapp2.2\w01.dll
+C:\Users\S533568\Documents\44663\Happy-Pizza-Home\obj\Debug\netcoreapp2.2\w01.pdb
