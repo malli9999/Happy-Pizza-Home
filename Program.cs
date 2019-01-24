@@ -12,7 +12,7 @@ double smallpizza = 6.5;
  int mediumpizza = 9;
  int largepizza = 13;
  double cost = 0;
-double tax = 1.6;
+double  tax = 1.6;
 Console.WriteLine("Hello World!");
 Console.WriteLine("Happy pizza Home");
 Console.WriteLine("enter your name");
@@ -62,10 +62,10 @@ else if (temp == "p"){
 
 cost+=tax;
 
-var SUM =0;
-//in an infinite loop, 
 
-while(true){
+//in an infinite loop, 
+bool t = true;
+while(t  ){
 // Prompt user for a number (or enter q to quit)
 Console.WriteLine("Enter q to exit and show the bill");
 // Read the input e.g. var str = Console.ReadLine();
@@ -73,7 +73,10 @@ var read  = Console.ReadLine();
 // If q then write a message and break
 
 if(read == "q"){
+    Console.WriteLine("*****************************");
 Console.WriteLine("done, your bill is: "+cost);
+    Console.WriteLine("*****************************");
+
  break;
 }
 
