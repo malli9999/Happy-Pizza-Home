@@ -11,7 +11,8 @@ namespace w01
 double smallpizza = 6.5;
  int mediumpizza = 9;
  int largepizza = 13;
-
+ double cost = 0;
+double tax = 1.6;
 Console.WriteLine("Hello World!");
 Console.WriteLine("Happy pizza Home");
 Console.WriteLine("enter your name");
@@ -24,12 +25,15 @@ Console.WriteLine("\tl - large");
 switch(Console.ReadLine()){
 case "s":
 Console.WriteLine($"{name} selected the small pizza of ${smallpizza} ");
+cost=smallpizza;
 break;
 case "m":
 Console.WriteLine($"{name} selected the medium pizza of ${mediumpizza}");
+cost=mediumpizza;
 break;
 case "l":
 Console.WriteLine($"{name} selected the large pizza ${largepizza}");
+cost=largepizza;
 break;
 }
 
@@ -38,7 +42,7 @@ Console.WriteLine("\th - Ham");
 Console.WriteLine("\tb - Beef");
 Console.WriteLine("\tc - chicken");
 Console.WriteLine("\tp - Pepperoni");
-temp = Console.ReadLine();
+var temp = Console.ReadLine();
 if (temp =="h")
 {
     Console.WriteLine($"you selected toppings are Ham");
@@ -56,29 +60,23 @@ else if (temp == "p"){
 
 }
 
+cost+=tax;
+
 var SUM =0;
 //in an infinite loop, 
 
 while(true){
 // Prompt user for a number (or enter q to quit)
-Console.WriteLine("enter a number or q to exist");
+Console.WriteLine("Enter q to exit and show the bill");
 // Read the input e.g. var str = Console.ReadLine();
 var read  = Console.ReadLine();
 // If q then write a message and break
 
 if(read == "q"){
-Console.WriteLine("done");
+Console.WriteLine("done, your bill is: "+cost);
  break;
 }
 
-// Echo the number
-Console.WriteLine($"you entered {read}");
-// Convert.ToInt32(str)
-var  i = Convert.ToInt32(read);
-// Update sum
-SUM += i;
-// Display the sum
-Console.WriteLine($" your sum is {SUM}");
 } 
 
         }
